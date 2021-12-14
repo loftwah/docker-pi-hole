@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - dev
+      - special/**
   pull_request:
   release:
     types: [published]
